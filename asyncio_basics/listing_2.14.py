@@ -1,5 +1,4 @@
 from asyncio import Future
-import time
 
 my_future = Future()
 print(f"my_future готов? {my_future.done()}")
