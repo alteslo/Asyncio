@@ -1,0 +1,8 @@
+accept-ch: Sec-CH-UA, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile
+cache-control: max-age=0, private, must-revalidate
+connection: close
+content-length: 476
+content-type: text/html; charset=utf-8
+date: Sun, 27 Oct 2024 16:42:53 GMT
+server: Cowboy
+set-cookie: sid=832a9ab1-9482-11ef-ba58-cb12cbd9d427; path=/; domain=.examle.com; expires=Fri, 14 Nov 2092 19:57:01 GMT; max-age=2147483647; secure; HttpOnly
