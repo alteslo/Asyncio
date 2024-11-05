@@ -1,11 +1,16 @@
-import requests
+import os
+import threading
 
-response = requests.get('https://www.examle.com')
-items = response.headers.items()
-headers = [f'{key}: {header}' for key, header in items]
 
-formatted_headers = '\n'.join(headers)
-# print(formatted_headers)
+print(f'Исполняется python процесс: {os.getpid()}')
 
-with open('headers.txt', 'w') as file:
-    file.write(formatted_headers)
+total_thread = threading.active_count()
+thread_name = threading.current_thread().name
+
+print(f'В данный момент Python исполняет {total_thread} поток(ов). Текущий поток: {thread_name}')
+
+
+"""
+Исполняется python процесс: 22640
+В данный момент Python исполняет 1 поток(ов). Текущий поток: MainThread
+"""

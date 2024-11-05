@@ -29,4 +29,11 @@
     ]
 }
 ```
+3. Вариант для VSCode: Отредактируйте settings.json В соответствии:
 
+Вместо * подставить (windows/linux/osx). После перезагрузить терминал
+```
+{
+    "terminal.integrated.env.*": {"PYTHONPATH": "${workspaceFolder}"}
+}
+```
