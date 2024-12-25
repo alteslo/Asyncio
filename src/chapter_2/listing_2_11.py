@@ -2,7 +2,7 @@ import asyncio
 from asyncio import CancelledError
 import time
 
-from util import delay
+from src.util import delay
 
 
 async def main() -> None:

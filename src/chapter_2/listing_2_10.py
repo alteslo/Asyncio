@@ -1,7 +1,7 @@
 import asyncio
 import time
 
-from util import delay
+from src.util import delay
 
 
 async def hello_every_second():
